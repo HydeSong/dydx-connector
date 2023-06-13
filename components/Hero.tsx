@@ -1,26 +1,27 @@
-'use client'
+"use client";
 
-import Image from "next/image"
-import {CustomButton} from "./"
+import Image from "next/image";
+import { CustomButton } from "./";
 
 const Hero = () => {
-  const handleScroll = () => {}
+  const handleScroll = () => {};
 
   return (
     <div className="hero">
       <div className="flex-1 pt-36 padding-x">
         <h1 className="hero__title">
-          Find, book, rent a car—quick and super easy!
+          Automate Your Trades with the dydx Connector Trading Bot
         </h1>
 
         <p className="hero__subtitle">
-          Streamline your car rental experience with our effortless booking process.
+          Streamline Your Trading with the dydx Connector Trading Bot.
         </p>
 
         <CustomButton
-          title="Explore Cars"
+          title="Connect to dydx"
           containerStyle="bg-primary-blue text-white rounded-full mt-10"
-          handleClick={handleScroll}/>
+          handleClick={handleScroll}
+        />
       </div>
       <div className="hero__image-container">
         <div className="hero__image">
@@ -30,7 +31,7 @@ const Hero = () => {
         <div className="hero__image-overlay" />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
