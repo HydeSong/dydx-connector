@@ -10,15 +10,15 @@ const Hero = () => {
     <div className="hero">
       <div className="flex-1 pt-36 padding-x">
         <h1 className="hero__title">
-          Automate Your Trades with the dydx Connector Trading Bot
+          Automate Your Trades with the dYdX Connector Trading Bot
         </h1>
 
         <p className="hero__subtitle">
-          Streamline Your Trading with the dydx Connector Trading Bot.
+          Streamline Your Trading with the dYdX Connector Trading Bot.
         </p>
 
         <CustomButton
-          title="Connect to dydx"
+          title="Connect to dYdX"
           containerStyle="bg-primary-blue text-white rounded-full mt-10"
           handleClick={handleScroll}
         />

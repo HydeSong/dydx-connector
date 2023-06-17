@@ -3,8 +3,8 @@ import './globals.css'
 import {Navbar, Footer} from '@/components'
 
 export const metadata = {
-  title: 'dydX connector',
-  description: 'A dydX connector',
+  title: 'dYdX connector',
+  description: 'A dYdX connector',
 }
 
 export default function RootLayout({
