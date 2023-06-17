@@ -10,11 +10,11 @@ const Hero = () => {
     <div className="hero">
       <div className="flex-1 pt-36 padding-x">
         <h1 className="hero__title">
-          Automate Your Trades with the dYdX Connector Trading Bot
+          Automate Your Trades with the dYdX Connector
         </h1>
 
         <p className="hero__subtitle">
-          Streamline Your Trading with the dYdX Connector Trading Bot.
+          Streamline Your Trading with the dYdX Connector.
         </p>
 
         <CustomButton
