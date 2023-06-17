@@ -16,7 +16,7 @@ const Footer = () => {
                         className="object-contain"
                     />
                     <p className="text-base text-gray-700">
-                        Dydx Connector @2023
+                        dYdX Connector @2023
                         <br />
                         All right reserved &copy;
                     </p>
@@ -45,7 +45,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="flex justify-between items-center flex-wrap mt-10 border-t border-gray-100 sm:px-16 px-6 py-10">
-                <p>@2023 Dydx Connector. All rights reserved &copy;</p>
+                <p>@2023 dYdX Connector. All rights reserved &copy;</p>
                 <div className="footer__copyrights-link">
                     <Link href="/" className="text-gray-500">
                         Privacy Policy
